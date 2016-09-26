@@ -10,7 +10,7 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import org.charmeck.trailofhistory.ranger.model.PointOfInterest;
+import org.charmeck.trailofhistory.core.model.PointOfInterest;
 
 public class DetailPointOfInterestActivity extends AppCompatActivity {
 
@@ -69,8 +69,9 @@ public class DetailPointOfInterestActivity extends AppCompatActivity {
   private void setPointOfInterest(PointOfInterest pointOfInterest) {
     this.pointOfInterest = pointOfInterest;
     nameField.setText(pointOfInterest.getName());
-    locationField.setText(getString(R.string.location_format_string, pointOfInterest.getLatitude(),
-        pointOfInterest.getLongitude()));
+    locationField.setText(
+        getString(R.string.location_format_string, Double.toString(pointOfInterest.getLatitude()),
+            Double.toString(pointOfInterest.getLongitude())));
     descriptionField.setText(pointOfInterest.getDescription());
   }
 }

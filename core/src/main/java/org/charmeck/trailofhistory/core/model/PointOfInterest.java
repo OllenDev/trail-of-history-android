@@ -1,4 +1,4 @@
-package org.charmeck.trailofhistory.ranger.model;
+package org.charmeck.trailofhistory.core.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

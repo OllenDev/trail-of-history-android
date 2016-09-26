@@ -46,3 +46,5 @@ gdb.setup
 
 # Project Specific
 keys.xml
+
+projectFilesBackup/

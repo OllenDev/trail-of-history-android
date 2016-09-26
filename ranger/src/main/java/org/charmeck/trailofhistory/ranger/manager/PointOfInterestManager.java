@@ -7,7 +7,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
-import org.charmeck.trailofhistory.ranger.model.PointOfInterest;
+import org.charmeck.trailofhistory.core.model.PointOfInterest;
 
 /**
  * Created by Trey Robinson on 7/9/16.

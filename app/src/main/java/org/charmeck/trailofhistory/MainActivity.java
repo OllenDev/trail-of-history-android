@@ -18,8 +18,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
-import org.charmeck.trailofhistory.model.PointOfInterest;
-import org.charmeck.trailofhistory.poi.PointOfInterestAdapter;
+import org.charmeck.trailofhistory.core.model.PointOfInterest;
+import org.charmeck.trailofhistory.core.ui.poi.list.PointOfInterestAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
           @Override public void onDataChange(DataSnapshot dataSnapshot) {
             for (DataSnapshot poiSnapshot : dataSnapshot.getChildren()) {
               PointOfInterest poi = poiSnapshot.getValue(PointOfInterest.class);
-              poiAdapter.addPointOfIntrest(poi);
+              poiAdapter.addPointOfInterest(poi);
             }
             poiAdapter.notifyDataSetChanged();
             progressDialog.dismiss();

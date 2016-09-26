@@ -13,8 +13,8 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
+import org.charmeck.trailofhistory.core.model.PointOfInterest;
 import org.charmeck.trailofhistory.ranger.manager.PointOfInterestManager;
-import org.charmeck.trailofhistory.ranger.model.PointOfInterest;
 
 public class NewPointOfInterestActivity extends AppCompatActivity {
 

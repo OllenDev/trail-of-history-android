@@ -6,6 +6,6 @@
         android:id="@+id/action_edit"
         android:icon="@drawable/ic_edit_white_24dp"
         android:title="@string/action_edit"
-        app:showAsAction="always"/>
+        app:showAsAction="always" />
 
 </menu>

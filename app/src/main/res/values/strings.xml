@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">trail of history</string>
-    <string name="placeholder_300_yds">300 yds</string>
+    <string name="placeholder_300_yds">300 yds</string><string name="profile">Profile</string>
 </resources>

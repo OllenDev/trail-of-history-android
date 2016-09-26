@@ -47,10 +47,14 @@ dependencies {
 
     compile 'com.google.firebase:firebase-core:9.4.0'
     compile 'com.google.firebase:firebase-database:9.4.0'
+    compile 'com.google.firebase:firebase-auth:9.4.0'
+    compile 'com.google.android.gms:play-services-auth:9.4.0'
 
     compile 'jp.wasabeef:picasso-transformations:2.1.0'
     // If you want to use the GPU Filters
     compile 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1'
+
+    compile 'com.firebaseui:firebase-ui:0.6.0'
 }
 
 apply from: "${project.rootDir}/config/quality/quality.gradle"
